@@ -1,0 +1,34 @@
+PODS:
+  - Flutter (1.0.0)
+  - Qualaroo (1.14.8)
+  - qualaroo_flutter (0.0.1):
+    - Flutter
+    - Qualaroo
+
+DEPENDENCIES:
+  - Flutter (from `Flutter`)
+  - Qualaroo (from `https://github.com/qualaroo/ios-sdk.git`, tag `1.14.8`)
+  - qualaroo_flutter (from `.symlinks/plugins/qualaroo_flutter/ios`)
+
+EXTERNAL SOURCES:
+  Flutter:
+    :path: Flutter
+  Qualaroo:
+    :git: https://github.com/qualaroo/ios-sdk.git
+    :tag: 1.14.8
+  qualaroo_flutter:
+    :path: ".symlinks/plugins/qualaroo_flutter/ios"
+
+CHECKOUT OPTIONS:
+  Qualaroo:
+    :git: https://github.com/qualaroo/ios-sdk.git
+    :tag: 1.14.8
+
+SPEC CHECKSUMS:
+  Flutter: f04841e97a9d0b0a8025694d0796dd46242b2854
+  Qualaroo: 5ffe577571a234b4a882cdf8ae5fd3b275fc8fd2
+  qualaroo_flutter: 970412264f9a9cfcd87db301d38011734b860247
+
+PODFILE CHECKSUM: b69f576ec3807a6708cb7db73fa6b75bd6afe102
+
+COCOAPODS: 1.12.0
