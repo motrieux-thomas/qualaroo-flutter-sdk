@@ -7,10 +7,7 @@ Flutter Bridge for Qualaroo Mobile SDK
 ### 1. Add Depencency
 Add dependency in pubspec.yml
 ```
-qualaroo_flutter: 
-    git:
-      url: https://github.com/qualaroo/flutter-sdk
-      ref: main # branch
+qualaroo_flutter: 0.0.1
   ```
 
 ### 2. Install It
