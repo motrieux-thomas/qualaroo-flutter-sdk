@@ -1,5 +1,3 @@
-import 'dart:ffi';
-
 import 'package:plugin_platform_interface/plugin_platform_interface.dart';
 
 import 'qualaroo_flutter_method_channel.dart';
@@ -23,10 +21,6 @@ abstract class QualarooFlutterPlatform extends PlatformInterface {
   static set instance(QualarooFlutterPlatform instance) {
     PlatformInterface.verifyToken(instance, _token);
     _instance = instance;
-  }
-
-  Future<String?> getPlatformVersion() {
-    throw UnimplementedError('platformVersion() has not been implemented.');
   }
 
   Future<void> initializeQualarooSdk(dynamic apiKey) {

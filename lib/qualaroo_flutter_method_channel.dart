@@ -10,13 +10,6 @@ class MethodChannelQualarooFlutter extends QualarooFlutterPlatform {
   final methodChannel = const MethodChannel('qualaroo_flutter');
 
   @override
-  Future<String?> getPlatformVersion() async {
-    final version =
-        await methodChannel.invokeMethod<String>('getPlatformVersion');
-    return version;
-  }
-
-  @override
   Future<void> initializeQualarooSdk(dynamic apiKey) async {
     await methodChannel.invokeMethod<String>('initializeQualarooSdk', apiKey);
   }

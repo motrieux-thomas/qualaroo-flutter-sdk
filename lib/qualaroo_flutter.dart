@@ -1,10 +1,6 @@
 import 'qualaroo_flutter_platform_interface.dart';
 
 class QualarooFlutter {
-  Future<String?> getPlatformVersion() {
-    return QualarooFlutterPlatform.instance.getPlatformVersion();
-  }
-
   Future<void> initializeQualarooSdk(dynamic apiKey) async {
     QualarooFlutterPlatform.instance.initializeQualarooSdk(apiKey);
   }
