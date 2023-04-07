@@ -5,15 +5,24 @@ Flutter Bridge for Qualaroo Mobile SDK
 ## Getting started
 
 ### 1. Add Depencency
-Add dependency in pubspec.yml
+Edit the pubspec.yaml file in your flutter directory to define the Qualaroo SDK dependency:
 ```
-qualaroo_flutter: 0.0.1
+qualaroo_flutter: 
+    git:
+      url: https://github.com/qualaroo/flutter-sdk
+      ref: main # branch
   ```
 
 ### 2. Install It
-You can install packages from the command line:
+Run the following command in your terminal after navigating to your project directory, to download the package
 ```
 flutter pub get
+  ```
+  
+  ### 3. Setup SDK
+Import Qualaroo Flutter SDK
+```
+import 'package:qualaroo_flutter/qualaroo_flutter.dart';
   ```
 
 #### For iOS specific
