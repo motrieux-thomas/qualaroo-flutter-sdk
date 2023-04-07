@@ -10,7 +10,7 @@ Edit the pubspec.yaml file in your flutter directory to define the Qualaroo SDK 
 qualaroo_flutter: 
     git:
       url: https://github.com/qualaroo/flutter-sdk
-      ref: main # branch
+      ref: main 
   ```
 
 ### 2. Install It
