@@ -5,3 +5,8 @@
 ## 0.0.2
 
 * Readme Update
+
+## 0.0.3
+
+* Code cleanup - removed unused build artifacts and temporary files
+* Optimized package size by removing unnecessary directories
