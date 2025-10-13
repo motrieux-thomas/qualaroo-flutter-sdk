@@ -1,4 +1,4 @@
-package com.example.qualaroo_flutter;
+package com.qualaroo.qualaroo_flutter;
 
 import android.content.BroadcastReceiver;
 import android.content.ComponentName;

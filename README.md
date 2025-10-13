@@ -1,25 +1,27 @@
 
-# Qualaroo
+# Qualaroo Flutter SDK
 A Flutter bridge for integrating Qualaroo mobile SDK to your mobile application.
+
+## Installation
+
+Add this to your package's `pubspec.yaml` file:
+
+```yaml
+dependencies:
+  qualaroo_flutter_sdk: ^0.0.3
+```
+
+Then run:
+```bash
+flutter pub get
+```
 
 ## Getting Started
 
-### 1. Add dependency
-Edit the pubspec.yaml file in your flutter directory to define the Qualaroo SDK dependency:
-```
-qualaroo_flutter: 0.0.3
-  ```
-
-### 2. Install
-Run the following command in your terminal after navigating to your project directory in order to download the package:
-```
-flutter pub get
-  ```
-  
-  ### 3. Setup SDK
+### 1. Setup SDK
 Import Qualaroo Flutter SDK:
 ```
-import 'package:qualaroo_flutter/qualaroo_flutter.dart';
+import 'package:qualaroo_flutter_sdk/qualaroo_flutter.dart';
   ```
 
 #### For iOS
@@ -36,7 +38,7 @@ end
 
 ## Usage
 ```javascript
-import 'package:qualaroo_flutter/qualaroo_flutter.dart';
+import 'package:qualaroo_flutter_sdk/qualaroo_flutter.dart';
 
 final _qualarooFlutterPlugin = QualarooFlutter();
 

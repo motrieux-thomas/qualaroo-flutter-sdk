@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:qualaroo_flutter/qualaroo_flutter.dart';
+import 'package:qualaroo_flutter_sdk/qualaroo_flutter.dart';
 
 void main() {
   runApp(const MyApp());
@@ -18,7 +18,7 @@ class _MyAppState extends State<MyApp> {
   @override
   void initState() {
     super.initState();
-    _qualarooFlutterPlugin.initializeQualarooSdk("API KEY");
+  _qualarooFlutterPlugin.initializeQualarooSdk("API KEY");
   }
 
   // Platform messages are asynchronous, so we initialize in an async method.

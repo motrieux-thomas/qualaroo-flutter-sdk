@@ -1,6 +1,6 @@
 import 'package:flutter_test/flutter_test.dart';
-import 'package:qualaroo_flutter/qualaroo_flutter_platform_interface.dart';
-import 'package:qualaroo_flutter/qualaroo_flutter_method_channel.dart';
+import 'package:qualaroo_flutter_sdk/qualaroo_flutter_platform_interface.dart';
+import 'package:qualaroo_flutter_sdk/qualaroo_flutter_method_channel.dart';
 import 'package:plugin_platform_interface/plugin_platform_interface.dart';
 
 class MockQualarooFlutterPlatform
