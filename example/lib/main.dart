@@ -18,7 +18,7 @@ class _MyAppState extends State<MyApp> {
   @override
   void initState() {
     super.initState();
-    _qualarooFlutterPlugin.initializeQualarooSdk("NzQ4MTQ6YTJkMzA3OTY4MWNjMWVmYWYzM2VjMDM0ZWY4Nzg2YzBlN2ExMjI2ZDo3MjEzMg==");
+    _qualarooFlutterPlugin.initializeQualarooSdk("API KEY");
   }
 
   // Platform messages are asynchronous, so we initialize in an async method.
@@ -37,7 +37,7 @@ class _MyAppState extends State<MyApp> {
     foregroundColor: WidgetStateProperty.all<Color>(Colors.blue),
   ),
   onPressed: () {
-     _qualarooFlutterPlugin.showSurvey("my_qualaroo_survey_1232");},
+     _qualarooFlutterPlugin.showSurvey("alias_name");},
   child: const Text('TextButton'),
 ),
         ),
