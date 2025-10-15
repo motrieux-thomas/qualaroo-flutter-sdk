@@ -1,7 +1,7 @@
 PODS:
   - Flutter (1.0.0)
   - Qualaroo (1.14.9)
-  - qualaroo_flutter_sdk (0.0.4):
+  - qualaroo_flutter_sdk (0.0.3):
     - Flutter
     - Qualaroo
 
@@ -27,7 +27,7 @@ CHECKOUT OPTIONS:
 SPEC CHECKSUMS:
   Flutter: cabc95a1d2626b1b06e7179b784ebcf0c0cde467
   Qualaroo: 56cf4b0c9580e9de50c2c494335afd71e6958894
-  qualaroo_flutter_sdk: 636b93fc77315ae464b43d1309c112b70d7c5fc6
+  qualaroo_flutter_sdk: dcf32b684d15cd8e0fc75e25d6705647f4677276
 
 PODFILE CHECKSUM: ede06b1fd11a855d0adad7c725e5a3cd82707b3a
 
