@@ -4,7 +4,7 @@
 #
 Pod::Spec.new do |s|
   s.name             = 'qualaroo_flutter_sdk'
-  s.version          = '0.0.3'
+  s.version          = '0.0.4'
   s.summary          = 'A Flutter bridge for integrating Qualaroo mobile SDK'
   s.description      = <<-DESC
 A Flutter bridge for integrating Qualaroo mobile SDK to your mobile application.
