@@ -7,7 +7,7 @@ import 'qualaroo_flutter_platform_interface.dart';
 class MethodChannelQualarooFlutter extends QualarooFlutterPlatform {
   /// The method channel used to interact with the native platform.
   @visibleForTesting
-  final methodChannel = const MethodChannel('qualaroo_flutter');
+  final methodChannel = const MethodChannel('qualaroo_flutter_sdk');
 
   @override
   Future<void> initializeQualarooSdk(dynamic apiKey) async {
