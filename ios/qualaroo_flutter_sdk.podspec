@@ -3,15 +3,15 @@
 # Run `pod lib lint qualaroo_flutter.podspec` to validate before publishing.
 #
 Pod::Spec.new do |s|
-  s.name             = 'qualaroo_flutter'
-  s.version          = '0.0.1'
-  s.summary          = 'A new Flutter plugin project.'
+  s.name             = 'qualaroo_flutter_sdk'
+  s.version          = '0.0.4'
+  s.summary          = 'A Flutter bridge for integrating Qualaroo mobile SDK'
   s.description      = <<-DESC
-A new Flutter plugin project.
+A Flutter bridge for integrating Qualaroo mobile SDK to your mobile application.
                        DESC
-  s.homepage         = 'http://example.com'
+  s.homepage         = 'https://qualaroo.com/'
   s.license          = { :file => '../LICENSE' }
-  s.author           = { 'Your Company' => 'email@example.com' }
+  s.author           = { 'Qualaroo' => 'support@qualaroo.com' }
   s.source           = { :path => '.' }
   s.source_files = 'Classes/**/*'
   s.public_header_files = 'Classes/**/*.h'

@@ -30,7 +30,7 @@ import 'package:qualaroo_flutter_sdk/qualaroo_flutter.dart';
 target 'Runner' do
 ...
   use_frameworks!
-  pod 'Qualaroo', :git => 'https://github.com/qualaroo/ios-sdk.git', :tag => '1.14.8'
+  pod 'Qualaroo', :git => 'https://github.com/qualaroo/ios-sdk.git', :tag => '1.14.9'
  ...
 end
 ```

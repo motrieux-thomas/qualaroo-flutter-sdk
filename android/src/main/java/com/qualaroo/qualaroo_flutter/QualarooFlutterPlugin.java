@@ -60,7 +60,7 @@ public class QualarooFlutterPlugin implements FlutterPlugin, MethodCallHandler {
 
     @Override
     public void onAttachedToEngine(@NonNull FlutterPluginBinding flutterPluginBinding) {
-        channel = new MethodChannel(flutterPluginBinding.getBinaryMessenger(), "qualaroo_flutter");
+        channel = new MethodChannel(flutterPluginBinding.getBinaryMessenger(), "qualaroo_flutter_sdk");
         channel.setMethodCallHandler(this);
         context = flutterPluginBinding.getApplicationContext();
     }

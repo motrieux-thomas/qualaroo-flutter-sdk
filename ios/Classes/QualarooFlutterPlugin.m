@@ -4,7 +4,7 @@
 @implementation QualarooFlutterPlugin
 + (void)registerWithRegistrar:(NSObject<FlutterPluginRegistrar>*)registrar {
   FlutterMethodChannel* channel = [FlutterMethodChannel
-      methodChannelWithName:@"qualaroo_flutter"
+      methodChannelWithName:@"qualaroo_flutter_sdk"
             binaryMessenger:[registrar messenger]];
   QualarooFlutterPlugin* instance = [[QualarooFlutterPlugin alloc] init];
   [registrar addMethodCallDelegate:instance channel:channel];

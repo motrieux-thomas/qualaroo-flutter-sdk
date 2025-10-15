@@ -1,0 +1,2 @@
+# Ignore example app lock file as it's not needed for the main package
+example/pubspec.lock
