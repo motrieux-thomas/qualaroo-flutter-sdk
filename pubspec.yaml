@@ -3,7 +3,6 @@ description: A Flutter bridge for integrating Qualaroo mobile SDK to your mobile
 version: 0.0.3
 homepage: https://qualaroo.com/
 repository: https://github.com/qualaroo/flutter-sdk
-publish_to: 'https://pub.dev'
 
 environment:
   sdk: '>=3.0.0 <4.0.0'
