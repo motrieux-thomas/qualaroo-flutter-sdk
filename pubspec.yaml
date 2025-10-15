@@ -1,6 +1,6 @@
 name: qualaroo_flutter_sdk
 description: A Flutter bridge for integrating Qualaroo mobile SDK to your mobile application.
-version: 0.0.4
+version: 0.0.3
 homepage: https://qualaroo.com/
 repository: https://github.com/qualaroo/flutter-sdk
 publish_to: 'https://pub.dev'
