@@ -10,3 +10,10 @@
 
 * Code cleanup - removed unused build artifacts and temporary files
 * Optimized package size by removing unnecessary directories
+
+## 0.0.4
+
+* Updated package name to qualaroo_flutter_sdk to avoid conflicts
+* Updated iOS podspec with correct name and version
+* Fixed method channel names for both Android and iOS
+* Updated package metadata and descriptions
