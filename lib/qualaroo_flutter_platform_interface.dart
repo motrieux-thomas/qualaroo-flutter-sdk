@@ -25,7 +25,8 @@ abstract class QualarooFlutterPlatform extends PlatformInterface {
 
   Future<void> initializeQualarooSdk(dynamic apiKey) {
     throw UnimplementedError(
-        'initializeQualarooSdk() has not been implemented.');
+      'initializeQualarooSdk() has not been implemented.',
+    );
   }
 
   Future<void> showSurvey(dynamic aliasName) {
@@ -46,6 +47,7 @@ abstract class QualarooFlutterPlatform extends PlatformInterface {
 
   Future<void> setPreferredLanguage(dynamic language) {
     throw UnimplementedError(
-        'setPrefferedLanguage() has not been implemented.');
+      'setPreferredLanguage() has not been implemented.',
+    );
   }
 }

@@ -27,7 +27,9 @@ class MethodChannelQualarooFlutter extends QualarooFlutterPlatform {
   @override
   Future<void> setUserProperty(dynamic key, dynamic value) async {
     await methodChannel.invokeMethod<String>(
-        'setUserProperty', <String, dynamic>{'key': key, 'value': value});
+      'setUserProperty',
+      <String, dynamic>{'key': key, 'value': value},
+    );
   }
 
   @override
@@ -37,6 +39,6 @@ class MethodChannelQualarooFlutter extends QualarooFlutterPlatform {
 
   @override
   Future<void> setPreferredLanguage(dynamic language) async {
-    await methodChannel.invokeMethod<String>('setPrefferedLanguage', language);
+    await methodChannel.invokeMethod<String>('setPreferredLanguage', language);
   }
 }
